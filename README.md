@@ -134,7 +134,21 @@ NSMutableArray *muArr = [@[
 4. C++ 和Objective-C 有词汇歧义和冲突
 5. C++ 和 Objective-C两者功能上有限制.Objective-C++ 没有为Objective-C类增加C++的功能,有没有为C++添加Objective-C的功能
 
+## 8. C语言与Objective-C语言的关系是充分而非必要条件
 
+>1. C语言中的每个标准变量类型在Objective-C中都可以使用
+2. C语言中的标准运算符在Objective-C中可用
+3. 可用标量来表示Objective-C的属性 比如``@property double currentValue;``
+4. 通过点语法访问值时,可以在属性中使用C操作符
+5. 在Objective-C 中定义了新的基本数据类型
+6. C语言中的数据结构在Objective-C中可以保持其基本值
+7. Objective-C值对象比C语言类型变量具有封装常用操作的优势
+
+
+### tips
+1. C语言的基本语法子啊Objective-C语言中是可用的
+2. 与C语言相比,Objective-C语言定义了新的基本数据类型,比如BOOL,Block等
+3. Objective-C值对象比C类型变量具有封装常用操作的优势,但是在数据运算时,使用C类型标量更为简洁
 
 
 
