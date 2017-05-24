@@ -137,12 +137,12 @@ NSMutableArray *muArr = [@[
 ## 8. C语言与Objective-C语言的关系是充分而非必要条件
 
 >1. C语言中的每个标准变量类型在Objective-C中都可以使用
-2. C语言中的标准运算符在Objective-C中可用
-3. 可用标量来表示Objective-C的属性 比如``@property double currentValue;``
-4. 通过点语法访问值时,可以在属性中使用C操作符
-5. 在Objective-C 中定义了新的基本数据类型
-6. C语言中的数据结构在Objective-C中可以保持其基本值
-7. Objective-C值对象比C语言类型变量具有封装常用操作的优势
+>2. C语言中的标准运算符在Objective-C中可用
+>3. 可用标量来表示Objective-C的属性 比如``@property double currentValue;``
+>4. 通过点语法访问值时,可以在属性中使用C操作符
+>5. 在Objective-C 中定义了新的基本数据类型
+>6. C语言中的数据结构在Objective-C中可以保持其基本值
+>7. Objective-C值对象比C语言类型变量具有封装常用操作的优势
 
 
 ### tips
